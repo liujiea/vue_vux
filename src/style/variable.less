@@ -133,7 +133,7 @@
 /**
  * Header
  */
-@header-background-color: @35495e;
+@header-background-color: #35495e;
 @header-title-color: #fff;
 @header-text-color: #ccc
 @header-arrow-color: #ccc;
@@ -188,6 +188,12 @@
 @button-global-disabled-font-color: rgba(255, 255, 255, .6);
 
 /**
+* en: the font color in disabled
+* zh-CN: disabled状态下的字体颜色
+*/
+@button-global-active-font-color: rgba(255,255,255,.6);
+
+/**
  * 字体大小
  */
 
@@ -215,6 +221,12 @@
  */
 
 @button-warn-active-color: #ce3c39;
+
+/**
+* en: the background color of the warn type in disabled
+* zh-CN: disabled状态下，warn类型的背景颜色
+*/
+@button-warn-disabled-bg-color: #EC8B89;
 
 /**
  * default 类型的背景颜色
@@ -301,10 +313,28 @@
 @button-plain-default-color: rgba(53,53,53,1);
 
 /**
+* en: the border color of the plain default type
+* zh-CN: plain的default类型的边框颜色
+*/
+@button-plain-default-border-color: rgba(53,53,53,1);
+
+/**
+* en: the font color of the plain default type in active
+* zh-CN: active状态下，plain的default类型的字体颜色
+*/
+@button-plain-default-active-color: rgba(53,53,53,.6);
+
+/**
  * active状态下，plain的default类型的字体颜色
  */
 
 @button-plain-default-active-border-color: rgba(53, 53, 53, .6);
+
+/**
+* en: the font color of the plain warn type
+* zh-CN: plain的warn类型的字体颜色
+*/
+@button-plain-warn-color: rgba(206,60,57,1);
 
 /**
  * plain的warn类型的字体颜色
