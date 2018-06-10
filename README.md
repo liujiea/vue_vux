@@ -11,6 +11,11 @@
         - icon -> weui_iocn, weui_icon_font
         - variable(全局)
 
+> 2018年6月10日16:34:55 提交完成x-button组件
+  添加less
+      weui-btn_global, weui-btn_default, weuii-btn_disabled, weui-btn_loading, weui-btn_plain, weui-btn_primary,
+   weui-btn_warn, weui-button, weui-loading
+      
 ## Build Setup
 
 ``` bash
