@@ -15,7 +15,7 @@
   添加less
       weui-btn_global, weui-btn_default, weuii-btn_disabled, weui-btn_loading, weui-btn_plain, weui-btn_primary,
    weui-btn_warn, weui-button, weui-loading
-      
+> 2018年6月11日20:01:04 从github上获取
 ## Build Setup
 
 ``` bash
