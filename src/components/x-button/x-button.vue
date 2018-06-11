@@ -1,5 +1,5 @@
 <template>
-	<button 
+	<button
 	class="weui-btn"
 	:style="buttonStyle"
 	:class="classes"
@@ -7,8 +7,8 @@
 	:type="activeType"
 	@click="onClick">
 		<i class="weui-loading" v-if="showLoading"></i>
-		<slot>{{ text }}</slot>			
-	</button>			
+		<slot>{{ text }}</slot>
+	</button>
 </template>
 <script type="text/javascript">
 	import { go } from '../../libs/router'
@@ -67,7 +67,7 @@
 </script>
 <style lang="less">
 	@import '../../style/weui/widget/weui-button/weui-button.less';
-	@import '../../style/weui/weui-loading/weui-loading.less'
+	// @import '../../style/weui/weui-loading/weui-loading.less'
 
 	.weui-btn.vux-x-button-no-border:after {
 		display: none;
