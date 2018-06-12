@@ -1,12 +1,7 @@
 <template>
-  <div class="contianer">
-      <ul>
-          <router-link :key="idx" v-for="(val, idx) in list" tag='li' :to="{path: '/' + val}" v-html="val"></router-link>
-      </ul>
     <transition name="slid">
         <router-view></router-view>
     </transition>
-  </div>
 </template>
 
 <script>
@@ -17,7 +12,8 @@ export default {
     return {
         list: [
             'icon',
-            'x-button'
+            'x-button',
+            'divider'
         ]
     }
   },
