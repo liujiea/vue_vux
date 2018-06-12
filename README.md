@@ -22,7 +22,7 @@
     合并
     >> git merge origin/master
 > 2018年6月12日22:46:20
-    调通x-button 组件 和完成divider组件
+    调通x-button 组件 和完成divider组件。
 ## Build Setup
 
 ``` bash
