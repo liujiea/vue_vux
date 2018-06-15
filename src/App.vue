@@ -24,9 +24,6 @@ export default {
 </script>
 
 <style>
-    .contianer {
-
-    }
     .contianer ul {
         display: flex;
         flex-wrap: wrap;

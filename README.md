@@ -23,6 +23,10 @@
     >> git merge origin/master
 > 2018年6月12日22:46:20
     调通x-button 组件 和完成divider组件。
+
+> 2018年6月15日21:52:23 更新 flexbox 组件
+    原理是使用了 display： flex ;
+
 ## Build Setup
 
 ``` bash

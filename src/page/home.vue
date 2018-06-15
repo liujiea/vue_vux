@@ -12,9 +12,11 @@ export default {
   data () {
     return {
         list: [
+            'study',
             'icon',
             'x-button',
-            'divider'
+            'divider',
+            'flexbox'
         ]
     }
   }

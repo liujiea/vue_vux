@@ -6,10 +6,11 @@ Vue.use(Router)
 import App from '../App.vue'
 
 const home = r => require.ensure([], () => r(require('../page/home')), 'home')
+const study = r => require.ensure([], () => r(require('../page/study/study')), 'study')
 const icon = r => require.ensure([], () => r(require('../components/icon')), 'icon')
 const x_button = r => require.ensure([], () =>r(require('../components/x-button')), 'x_button')
 const divider = r => require.ensure([], () => r(require('../components/divider')), 'divider')
-
+const flexbox = r => require.ensure([], () => r(require('../components/flexbox')), 'flexbox')
 export default new Router({
   routes: [
 
@@ -26,6 +27,10 @@ export default new Router({
             component: home
         },
         {
+            path: '/study',
+            component: study
+        },
+        {
             path: 'icon',
             component: icon
         },
@@ -36,6 +41,10 @@ export default new Router({
         {
             path: 'divider',
             component: divider
+        },
+        {
+            path: 'flexbox',
+            component: flexbox
         }
       ]
     }
