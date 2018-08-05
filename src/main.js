@@ -3,6 +3,9 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import AlertPlugin from './plugins/alert'
+
+Vue.use(AlertPlugin);
 
 Vue.config.productionTip = false
 

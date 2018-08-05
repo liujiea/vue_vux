@@ -3,6 +3,8 @@
         <ul>
             <router-link :key="idx" v-for="(val, idx) in list" tag='li' :to="{path: '/' + val}" v-html="val"></router-link>
         </ul>
+        <button @click="openClick">开启</button>
+        <button @click="closeClick">关闭</button>
   </div>
 </template>
 
@@ -18,6 +20,22 @@ export default {
             'divider',
             'flexbox'
         ]
+    }
+  },
+  methods: {
+    openClick () {
+      this.$vux.alert.show({
+        text: '我是弹窗',
+        onShow() {
+          console.log('我显示了')
+        },
+        onHide() {
+          console.log('我隐藏了')
+        }
+      });
+    },
+    closeClick () {
+      this.$vux.alert.hide();
     }
   }
 }
